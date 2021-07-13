@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> User Authentication</title>
+        <link rel="icon" href="team.png"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap" rel="stylesheet">
+        <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.css"
+        rel="stylesheet"
+        />
+        <script
+        type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.js"
+        ></script>
+        <link href="index.css" rel="stylesheet" />
+    </head>
+    
+    <body class="d-flex justify-content-center p-5">
+      
+        <div class="card">
+            <div class="card-header">
+                <img class="logo" src="https://www.freepnglogos.com/uploads/microsoft-window-logo-emblem-0.png" alt="failed to load logo image" width="80" height="80">
+               
+                <center><p>Microsoft Teams</p></center>
+            </div>
+            <form onsubmit="login()" id="loginForm" class="card-body px-5 py-4">
+                <center><small><span id="error" style="color: red"></span></small></center>
+                <center><label class="custom-field">
+                    <input id="email" type="text" class="input" required />
+                    <span class="placeholder">Email Id</span>
+                </label><br />
+                <label class="custom-field">
+                    <input id="password" type="password" class="input" required />
+                    <span class="placeholder">Password</span>
+                </label></center><br /><br/>
+                <a href="#" onclick="forgotPass()">Forgot Password</a>
+                <center><button type="submit" class="btn btn-primary btn-lg">Login</button>
+                <button onclick="signUp()" class="btn btn-secondary btn-lg">Sign Up</button>
+                </center>
+     
+            </form>
+        </div>
+       <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+     <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-analytics.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+
+        <script src="firebase.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>

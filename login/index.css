@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+body{
+    background: #24252a;
+    background-image: url(https://www.wallpaperbetter.com/wallpaper/931/247/693/raindrops-on-the-window-2K-wallpaper-middle-size.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+}
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+.pic
+{
+    margin-right: 4rem !important;
+    margin-left: 0rem !important;
+    float: left !important;
+    padding-left: 0 !important;
+    margin-top: 7rem;
+}
+p{
+    margin-top: 1rem !important;
+    margin-left: 0 !important;
+    font-size: 2rem;
+}
+.logo
+{
+    float: left;
+    margin-right: 0 !important;
+}
+.card
+{
+    margin-top: 7rem;
+}
+.btn-primary{
+    margin-top: 1.33rem;
+    background-color: #0088a9 !important;
+    border-radius: 40px;
+    margin-right: 0.5rem;
+    margin-bottom: 1.2rem;
+    font-size: 1.4rem;
+    font-family: "Open Sans", sans-serif;
+}
+.btn-secondary{
+    margin-top: 1.33rem;
+    background-color: #0088a9 !important;
+    border-radius: 40px;
+    margin-left: 0.5rem;
+    margin-bottom: 1.2rem;
+    font-size: 1.4rem;
+    font-family: "Open Sans", sans-serif;
+}
+.btn-primary:hover, .btn-secondary:hover{
+    color: grey(50, 47, 245);
+    padding: 10px 30px;
+    transition: color 0.4s ;
+    opacity: 0.87;
+    
+}
+
+/*transition: border 4s;
+padding: 10px 30px;*/
+.custom-field{
+    position: relative;
+    font-size: 14px;
+    padding-top: 20px;
+    margin-top: 5px;
+}
+
+.hover_password:hover{
+    /*box-shadow: 0px 0px 10px 6px grey;*/
+    color: lightskyblue;
+    border-bottom: 1 px solid white;
+}
+.custom-field input{
+    padding: 12px;
+    width: 300px;
+    font-size: 14px;
+    border-radius: 3px;
+    border: 1.5px solid gray;
+    outline-color: deepskyblue;
+}
+
+.custom-field .placeholder{
+    position: absolute;
+    left: 12px;
+    top: calc(50% + 10px);
+    transform: translateY(-50%);
+    color: #aaa;
+    transition: top 0.3s ease, font-size 0.3s ease, color 0.3s ease;
+}
+
+.custom-field input:valid + .placeholder,
+.custom-field input:focus + .placeholder{
+    top: 21px;
+    font-size: 10px;
+    color: #222;
+    padding: 5px;
+    background: white;
+}
+
+.message{
+    font-size: 70px;
+    font-family: 'Ubuntu', sans-serif;
+    color: steelblue;
+}
+
+.success{
+    font-size: 18px;
+    margin-top: 15px;
+    color: seagreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
