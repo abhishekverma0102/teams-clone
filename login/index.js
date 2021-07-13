@@ -5,7 +5,7 @@ document.getElementById("loginForm").addEventListener("submit",(event)=>{
 firebase.auth().onAuthStateChanged((user)=>{
     if(user){
         // location.replace("welcome.html")
-        window.location.href="http://localhost:3000"
+        window.location.href="https://dashboard.heroku.com/apps/teamsclonee/deploy/github"
     }
 })
 function login(){
