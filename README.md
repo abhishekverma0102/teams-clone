@@ -2,7 +2,7 @@
 
 Teams Clone-A meeting webapp. 
 
-Demo:https://barkkk.github.io/team/
+Demo:https://abhishekverma0102.github.io/teams-clone/
 
 ## Current Features
 
