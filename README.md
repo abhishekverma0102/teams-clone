@@ -15,7 +15,7 @@ Demo:https://abhishekverma0102.github.io/teams-clone/
 ## Tech Stack Used :
 HTML, CSS, JS and SCSS
 
-## Demo: https://barkkk.github.io/team/
+## Demo: https://abhishekverma0102.github.io/teams-clone/
 
 ##Getting Started
 
