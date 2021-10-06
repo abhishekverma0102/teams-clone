@@ -24,9 +24,8 @@ HTML, CSS, JS and SCSS
 2. Sign up using your gmail.
 ![alt text](https://github.com/Barkkk/team/blob/main/Sign%20Up.png)
 3. Now create a room code or join using a given roomcode.
-![alt text](https://github.com/Barkkk/team/blob/main/Create%20room.jpeg)
+
 4. After entering the room, you can copy the code and share the roomcode with your friends and can interact with them over call and chat.
-![alt text](https://github.com/Barkkk/team/blob/main/Room%20SS.jpeg)
 5. Feel free to use whiteboard, screensharing and other features.
 7. You are all set, enjoy video calling with your friends and family.
 
